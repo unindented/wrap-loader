@@ -1,0 +1,33 @@
+{
+  "name":        "wrap-loader",
+  "description": "Add custom content before and after the loaded source.",
+  "version":     "0.0.1",
+
+  "author": {
+    "name":  "Daniel Perez Alvarez",
+    "email": "unindented@gmail.com",
+    "url":   "http://unindented.org/"
+  },
+
+  "repository": {
+    "type": "git",
+    "url":  "git://github.com/unindented/wrap-loader.git"
+  },
+
+  "keywords": [
+    "wrap",
+    "webpack"
+  ],
+
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit test/loader.js"
+  },
+
+  "dependencies": {
+    "loader-utils": "^0.2.5"
+  },
+
+  "devDependencies": {
+    "nodeunit": "^0.9"
+  }
+}
