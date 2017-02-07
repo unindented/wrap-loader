@@ -22,6 +22,6 @@
     "loader-utils": "^0.2.5"
   },
   "devDependencies": {
-    "nodeunit": "^0.10.2"
+    "nodeunit": "^0.11.0"
   }
 }
