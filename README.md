@@ -1,4 +1,4 @@
-# Wrap loader for webpack [![Version](https://img.shields.io/npm/v/wrap-loader.svg)](https://www.npmjs.com/package/wrap-loader) [![Build Status](https://img.shields.io/travis/unindented/wrap-loader.svg)](http://travis-ci.org/unindented/wrap-loader) [![Dependency Status](https://img.shields.io/gemnasium/unindented/wrap-loader.svg)](https://gemnasium.com/unindented/wrap-loader)
+# Wrap loader for webpack [![Version](https://img.shields.io/npm/v/wrap-loader.svg)](https://www.npmjs.com/package/wrap-loader) [![Build Status](https://img.shields.io/travis/unindented/wrap-loader.svg)](http://travis-ci.org/unindented/wrap-loader)
 
 Adds custom content before and after the loaded source.
 
