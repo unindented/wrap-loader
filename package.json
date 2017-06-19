@@ -16,12 +16,21 @@
     "webpack"
   ],
   "scripts": {
-    "test": "./node_modules/.bin/nodeunit test/loader.js"
+    "test:lint": "eslint .",
+    "test:unit": "nodeunit test/loader.js",
+    "test": "run-s test:*"
   },
   "dependencies": {
-    "loader-utils": "^0.2.5"
+    "loader-utils": "^1.1.0"
   },
   "devDependencies": {
-    "nodeunit": "^0.10.2"
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodeunit": "^0.11.1",
+    "npm-run-all": "^4.0.2"
   }
 }
